@@ -2,7 +2,7 @@ import { addDoc, collection } from "firebase/firestore";
 import { useState } from "react";
 import { db } from "./Firebase/firebase";
 import { useNavigate } from "react-router-dom";
-
+// home page 
 const Home = () => {
   const [productURL, setProductURL] = useState("");
   const [productName, setProductName] = useState("");

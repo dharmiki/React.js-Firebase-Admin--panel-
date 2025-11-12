@@ -27,7 +27,7 @@ const Product = () => {
     fetchData();
   }, []);
 
-  // ✅ Filtering & Sorting Logic
+  // Filtering & Sorting Logic
   useEffect(() => {
     let filtered = productData.filter(
       (item) =>
